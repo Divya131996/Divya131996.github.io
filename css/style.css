@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5,
   z-index: 100;
   width: 100%; }
   .sticky-wrapper + .site-blocks-cover {
-    margin-top: 96px; }
+    margin-top: 20px; }
   .sticky-wrapper .site-navbar {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -1802,8 +1802,9 @@ h1, h2, h3, h4, h5,
 }
 
 .contact-section .card {
-  border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border: 2em;
+  border-bottom: 0.5rem solid #64a19d;
+  border-top: 0.5rem solid #64a19d;
 }
 
 .contact-section .card h4 {
@@ -1819,26 +1820,26 @@ h1, h2, h3, h4, h5,
   width: 3rem;
 }
 
-.contact-section .social {
-  margin-top: 5rem;
-}
+/*.contact-section .social {*/
+/*  margin-top: 5rem;*/
+/*}*/
 
-.contact-section .social a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
-}
+/*.contact-section .social a {*/
+/*  text-align: center;*/
+/*  height: 3rem;*/
+/*  width: 3rem;*/
+/*  background: rgba(255, 255, 255, 0.1);*/
+/*  border-radius: 100%;*/
+/*  line-height: 3rem;*/
+/*  color: rgba(255, 255, 255, 0.3);*/
+/*}*/
 
-.contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-.contact-section .social a:active {
-  color: #fff;
-}
+/*.contact-section .social a:hover {*/
+/*  color: rgba(255, 255, 255, 0.5);*/
+/*}*/
+/*.contact-section .social a:active {*/
+/*  color: #fff;*/
+/*}*/
 
 .fa-map:before {
   content: "\f279"; }
@@ -1876,13 +1877,6 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
-}
-
-#parallax1{
-  background-image: url(../images/1.jpg);
-}
-#parallax2 {
-  background-image: url(../images/2.jpg);
 }
 
 
